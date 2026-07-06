@@ -28,7 +28,7 @@ A ideia foi garantir que a infraestrutura técnica resolvesse o problema do clie
 
 Abaixo está o gráfico gerado diretamente no Workflow Studio da AWS, mostrando o desenho lógico de ponta a ponta:
 
-![Design do Workflow no Step Functions](image_imagem1.png)
+![Design do Workflow no Step Functions](image/imagem1.png)
 
 ---
 
