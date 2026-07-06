@@ -32,7 +32,7 @@ Abaixo está o gráfico gerado diretamente no Workflow Studio da AWS, mostrando 
 
 ---
 
-## Aprendizados e Insights Técnicos (Visão DevOps)
+## Aprendizados e Insights Técnicos
 
 * **Consistência de Dados em Primeiro Lugar:** A decisão de colocar o filtro de ClienteVip somente após o DynamoDB garante a resiliência do sistema. Primeiro salvamos os dados da compra com segurança; processos secundários (como marketing/cupons) rodam depois, evitando que um cliente ganhe um prêmio de uma venda que falhou no banco de dados.
 * **Visibilidade para o Suporte:** Para quem opera infraestrutura, o Step Functions é um escudo. Em vez de revirar linhas de código ou logs caóticos para descobrir onde uma automação quebrou, a interface visual mostra exatamente em qual estado (caixinha) o processo travou, agilizando o troubleshooting.
